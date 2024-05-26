@@ -1,5 +1,5 @@
-import Nav from "./components/Navbar"
-import Location from "./components/Location"
+import Nav from "./components/Navbar.jsx"
+import Location from "./components/Location.jsx"
 import journalData from "./data.js"
 
 export default function App() {
