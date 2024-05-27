@@ -8,7 +8,7 @@ export default function Location(props) {
             </section>
             <section className="card--right">
                 <div className="location">
-                    <img src="../images/pointer.svg" className="location--pointer" alt="Map Pointer"/>
+                    <img src="../public/pointer.svg" className="location--pointer" alt="Map Pointer"/>
                     <div className="location--country">{props.location}</div>
                     <a href={props.googleMapsUrl} className="location--map">View on Google Maps</a>
                 </div>
